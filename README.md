@@ -1,0 +1,2 @@
+# 4th-Semester-Android-Project
+4th Semester Android Project. SU Calculator. An App for Danish students. The SU Calculator is to help keep track of a student earnings so that they can earn as much as possible without suffering from paying their SU back. Paying SU back could occur if a student had made more money than The Danish students' Grants and Loans Scheme permits. The app is to do the calculations and shows how much the student may still earn until the end of the fiscal year.
