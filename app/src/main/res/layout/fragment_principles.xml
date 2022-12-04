@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.principles.PrinciplesFragment"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/text_principles"
+        style="@style/textHeader1"
+        android:layout_marginTop="@dimen/textHeader1_margin_top"
+        android:text="@string/dashboard_heading_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/principles_header_2"
+        style="@style/textHeader2"
+        android:text="@string/principles_header_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_principles" />
+
+    <Button
+        android:id="@+id/btnBack"
+        style="@style/basicButton"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/principles_caveat_2022_description" />
+
+    <TextView
+        android:id="@+id/principles_paragraph_1"
+        style="@style/textParagraph"
+        android:text="@string/principles_paragraph_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/principles_header_2" />
+
+    <TextView
+        android:id="@+id/principles_su_hyperlink"
+        style="@style/textParagraph"
+        android:text="@string/principles_su_hyperlink"
+        android:autoLink="web"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/principles_paragraph_1" />
+
+    <TextView
+        android:id="@+id/principles_caveat_2022_header"
+        style="@style/textParagraph"
+        android:text="@string/principles_caveat_2022_header"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#A80606"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/principles_su_hyperlink" />
+
+    <TextView
+        android:id="@+id/principles_caveat_2022_description"
+        style="@style/textParagraph"
+        android:text="@string/principles_caveat_2022_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/principles_caveat_2022_header" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

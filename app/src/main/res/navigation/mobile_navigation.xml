@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.sucalculator.ui.dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_principles"
+            app:destination="@id/nav_principles"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_basic_details"
+            app:destination="@id/nav_basic_details"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_add_edit_payslip"
+            app:destination="@id/nav_add_edit_payslip"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_calculations_summary"
+            app:destination="@id/nav_calculations_summary"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_principles"
+        android:name="com.example.sucalculator.ui.principles.PrinciplesFragment"
+        android:label="@string/menu_principles"
+        tools:layout="@layout/fragment_principles" >
+        <action
+            android:id="@+id/action_nav_principles_to_nav_dashboard2"
+            app:destination="@id/nav_dashboard"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_basic_details"
+        android:name="com.example.sucalculator.ui.basicdetails.BasicDetailsFragment"
+        android:label="@string/menu_basic_details"
+        tools:layout="@layout/fragment_basic_details" >
+        <action
+            android:id="@+id/action_nav_basic_details_to_nav_dashboard"
+            app:destination="@id/nav_dashboard"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_add_edit_payslip"
+        android:name="com.example.sucalculator.ui.addeditpayslip.AddEditPayslipFragment"
+        android:label="Add / edit a payslip"
+        tools:layout="@layout/fragment_add_edit_payslip" >
+        <action
+            android:id="@+id/action_nav_add_edit_payslip_to_nav_dashboard"
+            app:destination="@id/nav_dashboard"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_calculations_summary"
+        android:name="com.example.sucalculator.ui.calculationssummary.CalculationsSummaryFragment"
+        android:label="Calculations summary"
+        tools:layout="@layout/fragment_calculations_summary" >
+        <action
+            android:id="@+id/action_nav_calculations_summary_to_nav_dashboard"
+            app:destination="@id/nav_dashboard"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+</navigation>

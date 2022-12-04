@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background1">#FFFCF1</color>
+    <color name="buttonBackground1">#FFD6AF</color>
+    <color name="buttonStroke1">#593600</color>
+    <color name="buttonFontColor1">#352600</color>
+    <color name="circleColor1">#7CFFD6AF</color>
+
+    <color name="ellipse_1_color">#FFD5AF</color>
+    <color name="rectangle_1_color">#FFD6AF</color>
+    <color name="principles___formulas_color">#352600</color>
+    <color name="defaultTextColor">#1F1F1F</color>
 </resources>

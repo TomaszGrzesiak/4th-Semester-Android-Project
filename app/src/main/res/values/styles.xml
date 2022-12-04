@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textHeader1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">48dp</item>
+        <item name="android:layout_marginEnd">48dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="textHeader2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">48dp</item>
+        <item name="android:layout_marginEnd">48dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="basicButton">
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_width">128dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:backgroundTint">@color/buttonBackground1</item>
+        <item name="strokeColor">#977546</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="textParagraph">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="basicDetailsText">
+        <item name="android:width">230dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:duplicateParentState">false</item>
+        <item name="android:hint">0.0</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">#667</item>
+        <item name="android:textSize">16sp</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+    <style name="yourBasicDetailsListItem">
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+</resources>

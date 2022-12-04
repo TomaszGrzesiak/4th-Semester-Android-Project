@@ -1,12 +1,22 @@
 <resources>
     <string name="app_name">SU Calculator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SU Calculator</string>
+    <string name="nav_header_subtitle">Never suffer paying your SU back.</string>
+    <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_principles">Principles &amp; Formulas</string>
+    <string name="menu_basic_details">Basic details</string>
+    <string name="dashboard_heading_1">SU Calculator</string>
+    <string name="dashboard_heading_2">Keep track of you earnings and never suffer paying your SU back.</string>
+    <string name="principles_header_2">Principles &amp; formulas</string>
+    <string name="principles_paragraph_1">The formulas are based on the currently applicable principles, available to read in Danish language at:</string>
+    <string name="principles_su_hyperlink">https://www.su.dk/su/su-betingelser/saa-meget-maa-du-tjene-fribeloeb/fribeloeb/satser-for-fribeloeb/</string>
+    <string name="principles_caveat_2022_header">2022 caveat</string>
+    <string name="principles_caveat_2022_description">As opposed to the previous years and next years, the Danish government has adapted a new ruling, stating that all the SU takers may earn 4000 kr more per month than the basic rate says. This ruling is so far only applicable to 2022 tax year.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

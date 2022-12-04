@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_dashboard_24"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_principles"
+            android:icon="@drawable/ic_menu_principles_24"
+            android:title="@string/menu_principles" />
+        <item
+            android:id="@+id/nav_basic_details"
+            android:icon="@drawable/ic_menu_basic_details_24"
+            android:title="@string/menu_basic_details" />
+        <item
+            android:id="@+id/nav_add_edit_payslip"
+            android:icon="@drawable/ic_menu_monetization_on_24"
+            android:title="Add a payslip" />
+        <item
+            android:id="@+id/nav_calculations_summary"
+            android:icon="@drawable/ic_menu_calculations_summary"
+            android:title="Calculations Summary" />
+    </group>
+</menu>
