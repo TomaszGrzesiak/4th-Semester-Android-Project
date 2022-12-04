@@ -6,7 +6,7 @@ An App for Danish students. The SU Calculator is to help keep track of a student
 
 ## Functional Requirements / User Stories
 ### High-priority
-- [ ] As a student, I want to be able to see the list of The Danish students' Grants and Loans Scheme principles and the fundamental formulas used in the app so that I can assure myself that all the presented results reflect the currently applicable Danish rules. 
+- [x] As a student, I want to be able to see the list of The Danish students' Grants and Loans Scheme principles and the fundamental formulas used in the app so that I can assure myself that all the presented results reflect the currently applicable Danish rules. 
 - [ ] As a student, I want to be able to set the number of months where I am taking my education and their monthly allowance, gap-semester months, paid internship or inactive in studies, months before the education started / after it is finished so that the app can perform the necessary calculations*.
 - [ ] As a student, I want to be able to add a paycheck record to the system so that the app can perform the necessary calculations*. The following fields must be included: a period that is covered by the paycheck ("from" and "to" date), income before tax deduction (Brutto), amount of taxed feriepenge (feriepenge may or may not be taxed immediately along with the paycheck - depending on an employer's politics), deducted AM-Bidrag (8%) of both income and feriepenge.
 - [ ] As a student, I want to be presented with the results of the necessary calculations*, additionally divided into monthly and weekly, so that I know how much money I can make before exceeding my allowance.
