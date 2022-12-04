@@ -26,6 +26,14 @@
             android:id="@+id/action_nav_dashboard_to_nav_calculations_summary"
             app:destination="@id/nav_calculations_summary"
             app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_your_payslips"
+            app:destination="@id/nav_your_payslips"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_payslipFragment"
+            app:destination="@id/payslipFragment"
+            app:enterAnim="@android:anim/fade_in" />
     </fragment>
 
     <fragment
@@ -58,6 +66,11 @@
             android:id="@+id/action_nav_add_edit_payslip_to_nav_dashboard"
             app:destination="@id/nav_dashboard"
             app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_nav_add_edit_payslip_to_nav_your_payslips"
+            app:destination="@id/nav_your_payslips"
+            app:enterAnim="@android:anim/fade_in"
+            app:popEnterAnim="@android:anim/fade_in" />
     </fragment>
     <fragment
         android:id="@+id/nav_calculations_summary"
@@ -69,4 +82,25 @@
             app:destination="@id/nav_dashboard"
             app:enterAnim="@android:anim/fade_in" />
     </fragment>
+    <fragment
+        android:id="@+id/nav_your_payslips"
+        android:name="com.example.sucalculator.ui.yourpayslips.YourPayslipsFragment"
+        android:label="Your payslips"
+        tools:layout="@layout/fragment_your_payslips" >
+        <action
+            android:id="@+id/action_nav_your_payslips_to_nav_dashboard"
+            app:destination="@id/nav_dashboard"
+            app:enterAnim="@android:anim/fade_in"
+            app:popEnterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_nav_your_payslips_to_nav_add_edit_payslip"
+            app:destination="@id/nav_add_edit_payslip"
+            app:enterAnim="@android:anim/fade_in"
+            app:popEnterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/payslipFragment"
+        android:name="com.example.sucalculator.ui.payslipsrecycleview.PayslipFragment"
+        android:label="Your payslips recycleview"
+        tools:layout="@layout/fragment_payslip_recycleview_list_layout" />
 </navigation>

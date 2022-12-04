@@ -37,6 +37,7 @@ public class DashboardFragment extends Fragment {
         binding.btnYourBasicDetails.setOnClickListener(v -> navController.navigate(R.id.action_nav_dashboard_to_nav_basic_details));
         binding.btnAddAPayslip.setOnClickListener(v -> navController.navigate(R.id.action_nav_dashboard_to_nav_add_edit_payslip));
         binding.btnCalculationsSummary.setOnClickListener(v -> navController.navigate(R.id.action_nav_dashboard_to_nav_calculations_summary));
+        binding.btnSeeYourPayslips.setOnClickListener(v -> navController.navigate(R.id.action_nav_dashboard_to_nav_your_payslips));
 
         final TextView textView = binding.textDashboard;
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);

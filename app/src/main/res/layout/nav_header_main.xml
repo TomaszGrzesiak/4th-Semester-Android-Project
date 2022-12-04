@@ -20,11 +20,13 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="36sp"
         android:textFontWeight="700"
+        android:textColor="@color/background1"
         />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nav_header_subtitle" />
+        android:text="@string/nav_header_subtitle"
+        android:textColor="@color/background1"/>
 </LinearLayout>

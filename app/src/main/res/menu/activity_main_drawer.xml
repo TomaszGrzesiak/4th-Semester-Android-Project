@@ -24,5 +24,13 @@
             android:id="@+id/nav_calculations_summary"
             android:icon="@drawable/ic_menu_calculations_summary"
             android:title="Calculations Summary" />
+        <item
+            android:id="@+id/nav_your_payslips"
+            android:icon="@drawable/ic_menu_payslips"
+            android:title="Your payslips" />
+        <item
+            android:id="@+id/payslipFragment"
+            android:icon="@drawable/ic_menu_payslips"
+            android:title="Recycle view example" />
     </group>
 </menu>

@@ -31,14 +31,22 @@ public class AddEditPayslipFragment extends Fragment {
         View root = binding.getRoot();
 
         NavController navController = Navigation.findNavController(container);
-        binding.btnBack.setOnClickListener(v -> navController.navigate(R.id.action_nav_add_edit_payslip_to_nav_dashboard));
+        binding.btnBack.setOnClickListener(v -> navController.popBackStack());
         binding.btnSave.setOnClickListener(v -> {
             Toast.makeText(getContext(), "Data saved.", Toast.LENGTH_SHORT).show();
-            navController.navigate(R.id.action_nav_add_edit_payslip_to_nav_dashboard);
+            navController.popBackStack();
         });
 
         final TextView textView = binding.textAddEditPayslip;
         AddEditPayslipViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+
+
+
+
+
+
+
         return root;
     }
 
